@@ -95,3 +95,48 @@ body {
 .fab {
     margin: 0 10px;
 }
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #65C9FF;
+    color: #262e33;
+}
+
+#contact-form h1 {
+    padding: 20px;
+}
+
+#contact-form input {
+    display: block;
+    margin: 20px 0;
+    width: 600px;
+    padding: 10px;
+}
+
+#user-message {
+    display: block;
+    width: 600px;
+    min-height: 50px;
+    height: 200px;
+    padding: 10px;
+}
+
+#button-contain {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin: 20px 0;
+}
+
+.btn-primary {
+    display: block;
+    color: #262e33 !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    background-color: black !important;
+    color: white !important;
+}

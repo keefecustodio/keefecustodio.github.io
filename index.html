@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>My Project</title>
+    <title>Keefe Custodio</title>
 </head>
 <body>
     <nav id="fixed-nav">
@@ -85,6 +85,21 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cum provident rem officia facilis expedita, libero minus culpa cumque rerum molestiae distinctio! Earum, quos quia.</p>
             </div>
         </div>
+    </div>
+
+    <div id="contact-form">
+        <h1>Contact</h1>
+        <form action="https://formsubmit.co/keefe.dev@gmail.com" id="user-message-send" method="POST">
+            <input type="email" name="email" placeholder="Email Address">
+            <input type="name" name="name" placeholder="Name" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea id="user-message" name="message" placeholder="Message" required></textarea>
+
+            <input type="text" name="_honey" style="display:none">
+            <div id="button-contain">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+       </form>
     </div>
 
     <script src="script.js"></script>
