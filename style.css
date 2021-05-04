@@ -42,8 +42,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: hsl(201, 100%, 56%);
-    color: black;
+    /*background-color: hsl(201, 100%, 56%);*/
+    background-color: #65C9FF;
+    color: #262e33;
     min-height: 300px;
 }
 
